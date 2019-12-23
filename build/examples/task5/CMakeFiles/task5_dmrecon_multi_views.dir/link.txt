@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC   CMakeFiles/task5_dmrecon_multi_views.dir/class5_dmrecon_multi_views.cc.o  -o task5_dmrecon_multi_views ../../mvs/libmvs.a ../../util/libutil.a ../../core/libcore.a ../../util/libutil.a /usr/lib/x86_64-linux-gnu/libpng.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libjpeg.so /usr/lib/x86_64-linux-gnu/libtiff.so 

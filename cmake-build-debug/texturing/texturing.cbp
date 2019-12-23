@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="texturing" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\3rdParty\;CMake Files\3rdParty\coldet\;CMake Files\3rdParty\gco\;CMake Files\3rdParty\mrf\;CMake Files\cmake\;CMake Files\core\;CMake Files\util\;CMake Files\features\;CMake Files\sfm\;CMake Files\mvs\;CMake Files\examples\;CMake Files\examples\task1\;CMake Files\examples\task2\;CMake Files\examples\task3\;CMake Files\examples\task4\;CMake Files\examples\task5\;CMake Files\examples\task6\;CMake Files\examples\task7\;CMake Files\surface\;CMake Files\texturing\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="texturing">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/libtexturing.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DRESEARCH" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/texturing/.." />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/texturing/../3rdParty/coldet/src" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/texturing/../3rdParty/mrf" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 texturing" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="texturing/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/libtexturing.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add option="-DRESEARCH" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/texturing/.." />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/texturing/../3rdParty/coldet/src" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/texturing/../3rdParty/mrf" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 texturing/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/texturing/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/build_adjacency_graph.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/build_obj_model.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/calculate_data_costs.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/debug.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/defines.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/generate_debug_embeddings.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/generate_texture_atlases.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/generate_texture_patches.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/generate_texture_views.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/global_seam_leveling.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/histogram.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/histogram.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/local_seam_leveling.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/material_lib.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/material_lib.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/obj_model.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/obj_model.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/poisson_blending.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/poisson_blending.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/prepare_mesh.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/progress_counter.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/rect.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/rectangular_bin.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/rectangular_bin.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/seam_leveling.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/seam_leveling.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/settings.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/sparse_table.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/texture_atlas.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/texture_atlas.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/texture_patch.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/texture_patch.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/texture_view.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/texture_view.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/texturing.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/timer.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/timer.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/tri.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/tri.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/uni_graph.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/uni_graph.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/util.h">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/view_selection.cpp">
+         <Option target="texturing"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/coldet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\coldet\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/coldet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\coldet\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/gco/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\gco\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/gco/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\gco\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/mrf/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\mrf\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\util\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\util\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/features/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\features\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/features/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\features\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sfm\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sfm\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/mvs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\mvs\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/mvs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\mvs\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task1\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task1\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task2\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task2\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task3\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task3\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task4/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task4\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task4/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task4\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task5/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task5\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task5/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task5\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task6/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task6\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task6/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task6\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task7/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task7\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task7/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task7\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/surface/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\surface\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/surface/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\surface\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\texturing\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\texturing\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

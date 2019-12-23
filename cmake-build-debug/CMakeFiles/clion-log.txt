@@ -1,0 +1,8 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tangming/ImageBasedModellingEduV1.0
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+PNG found: /usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libz.so
+JPEG found: /usr/lib/x86_64-linux-gnu/libjpeg.so
+TIFF found: /usr/lib/x86_64-linux-gnu/libtiff.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug

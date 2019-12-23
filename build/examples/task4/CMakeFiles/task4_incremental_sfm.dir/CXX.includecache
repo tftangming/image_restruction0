@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tangming/ImageBasedModellingEduV1.0/examples/task4/class4_test_incremental_sfm.cc
+
+/home/tangming/ImageBasedModellingEduV1.0/examples/task4/functions.cc
+

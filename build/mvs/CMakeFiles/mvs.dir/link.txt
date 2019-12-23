@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmvs.a  CMakeFiles/mvs.dir/dmrecon.cc.o CMakeFiles/mvs.dir/global_view_selection.cc.o CMakeFiles/mvs.dir/image_pyramid.cc.o CMakeFiles/mvs.dir/local_view_selection.cc.o CMakeFiles/mvs.dir/mvs_tools.cc.o CMakeFiles/mvs.dir/patch_optimization.cc.o CMakeFiles/mvs.dir/patch_sampler.cc.o CMakeFiles/mvs.dir/single_view.cc.o
+/usr/bin/ranlib libmvs.a

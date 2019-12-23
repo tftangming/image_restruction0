@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC -g   CMakeFiles/task3_test_jacobian.dir/class3_test_jacobian.cc.o  -o task3_test_jacobian ../../sfm/libsfm.a ../../util/libutil.a ../../core/libcore.a ../../util/libutil.a /usr/lib/x86_64-linux-gnu/libpng.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libjpeg.so /usr/lib/x86_64-linux-gnu/libtiff.so 

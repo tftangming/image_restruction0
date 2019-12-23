@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="class2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\3rdParty\;CMake Files\3rdParty\coldet\;CMake Files\3rdParty\gco\;CMake Files\3rdParty\mrf\;CMake Files\cmake\;CMake Files\core\;CMake Files\util\;CMake Files\features\;CMake Files\sfm\;CMake Files\mvs\;CMake Files\examples\;CMake Files\examples\task1\;CMake Files\examples\task2\;CMake Files\examples\task3\;CMake Files\examples\task4\;CMake Files\examples\task5\;CMake Files\examples\task6\;CMake Files\examples\task7\;CMake Files\surface\;CMake Files\texturing\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_camera_model">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_camera_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_camera_model" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_camera_model/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_camera_model" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_camera_model/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_math_basic">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_math_basic" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_math_basic" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_math_basic/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_math_basic" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_math_basic/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_fundamental_8_point">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_fundamental_8_point" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_fundamental_8_point" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_fundamental_8_point/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_fundamental_8_point" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_fundamental_8_point/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_fundamental_ransac">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_fundamental_ransac" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_fundamental_ransac" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_fundamental_ransac/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_fundamental_ransac" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_fundamental_ransac/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_homography">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_homography" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_homography" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_homography/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_homography" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_homography/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_pose_from_fundamental">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_pose_from_fundamental" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_pose_from_fundamental" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="task2_test_pose_from_fundamental/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/task2_test_pose_from_fundamental" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/../.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 task2_test_pose_from_fundamental/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/examples/task2/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/calss2_test_pose_from_fundamental.cc">
+         <Option target="task2_test_pose_from_fundamental"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/class2_test_camera.cc">
+         <Option target="task2_test_camera_model"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/class2_test_fundamental_8_point.cc">
+         <Option target="task2_test_fundamental_8_point"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/class2_test_fundamental_ransac.cc">
+         <Option target="task2_test_fundamental_ransac"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/class2_test_homography.cc">
+         <Option target="task2_test_homography"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/class2_test_math_basic.cc">
+         <Option target="task2_test_math_basic"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/visualizer.cc">
+         <Option target="task2_test_homography"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/visualizer.h">
+         <Option target="task2_test_homography"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/coldet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\coldet\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/coldet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\coldet\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/gco/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\gco\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/gco/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\gco\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/mrf/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\mrf\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\util\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\util\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/features/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\features\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/features/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\features\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sfm\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sfm\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/mvs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\mvs\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/mvs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\mvs\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task1\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task1\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task2\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task2\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task3\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task3\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task4/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task4\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task4/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task4\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task5/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task5\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task5/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task5\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task6/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task6\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task6/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task6\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task7/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task7\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task7/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task7\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/surface/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\surface\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/surface/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\surface\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\texturing\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\texturing\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

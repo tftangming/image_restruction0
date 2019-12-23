@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsurface.a  CMakeFiles/surface.dir/basis_function.cc.o CMakeFiles/surface.dir/hermite.cc.o CMakeFiles/surface.dir/iso_octree.cc.o CMakeFiles/surface.dir/iso_surface.cc.o CMakeFiles/surface.dir/mesh_clean.cc.o CMakeFiles/surface.dir/octree.cc.o CMakeFiles/surface.dir/sample_io.cc.o CMakeFiles/surface.dir/triangulation.cc.o CMakeFiles/surface.dir/voxel.cc.o
+/usr/bin/ranlib libsurface.a

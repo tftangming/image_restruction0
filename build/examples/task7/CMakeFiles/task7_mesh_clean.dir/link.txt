@@ -1,0 +1,1 @@
+/usr/bin/c++   -fPIC   CMakeFiles/task7_mesh_clean.dir/class7_meshclean.cc.o  -o task7_mesh_clean ../../util/libutil.a ../../core/libcore.a ../../surface/libsurface.a ../../util/libutil.a /usr/lib/x86_64-linux-gnu/libpng.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libjpeg.so /usr/lib/x86_64-linux-gnu/libtiff.so 

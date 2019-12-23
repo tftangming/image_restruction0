@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcoldet.a  CMakeFiles/coldet.dir/src/box_bld.cpp.o CMakeFiles/coldet.dir/src/box.cpp.o CMakeFiles/coldet.dir/src/cdmath3d.cpp.o CMakeFiles/coldet.dir/src/coldet_bld.cpp.o CMakeFiles/coldet.dir/src/coldet.cpp.o CMakeFiles/coldet.dir/src/multiobject.cpp.o CMakeFiles/coldet.dir/src/mytritri.cpp.o CMakeFiles/coldet.dir/src/sysdep.cpp.o CMakeFiles/coldet.dir/src/tritri.c.o
+/usr/bin/ranlib libcoldet.a

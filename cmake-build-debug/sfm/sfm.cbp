@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="sfm" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\3rdParty\;CMake Files\3rdParty\coldet\;CMake Files\3rdParty\gco\;CMake Files\3rdParty\mrf\;CMake Files\cmake\;CMake Files\core\;CMake Files\util\;CMake Files\features\;CMake Files\sfm\;CMake Files\mvs\;CMake Files\examples\;CMake Files\examples\task1\;CMake Files\examples\task2\;CMake Files\examples\task3\;CMake Files\examples\task4\;CMake Files\examples\task5\;CMake Files\examples\task6\;CMake Files\examples\task7\;CMake Files\surface\;CMake Files\texturing\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfm">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/libsfm.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/sfm/.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 sfm" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sfm/fast">
+         <Option output="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/libsfm.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DEIGEN_USE_NEW_STDVECTOR" />
+            <Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET" />
+            <Add directory="/home/tangming/ImageBasedModellingEduV1.0/sfm/.." />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/6" />
+            <Add directory="/usr/include/c++/6/backward" />
+            <Add directory="/usr/include/eigen3" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/6" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 sfm/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/tangming/ImageBasedModellingEduV1.0/cmake-build-debug/sfm/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ba_cholesky.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ba_conjugate_gradient.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ba_dense_vector.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ba_linear_solver.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ba_linear_solver.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ba_sparse_matrix.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ba_types.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundle_adjustment.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundle_adjustment.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_common.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_common.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_features.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_features.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_incremental.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_incremental.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_init_pair.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_init_pair.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_intrinsics.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_intrinsics.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_matching.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_matching.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_tracks.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/bundler_tracks.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/camera_database.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/camera_database.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/camera_pose.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/defines.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/extract_focal_length.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/extract_focal_length.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/feature_set.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/feature_set.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/fundamental.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/fundamental.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/homography.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/homography.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/pose_p3p.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/pose_p3p.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac_fundamental.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac_fundamental.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac_homography.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac_homography.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac_pose_p3p.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/ransac_pose_p3p.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/triangulate.cc">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/triangulate.h">
+         <Option target="sfm"/>
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/coldet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\coldet\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/coldet/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\coldet\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/gco/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\gco\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/gco/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\gco\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/3rdParty/mrf/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdParty\mrf\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/cmake/FindEigen.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\core\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\util\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/util/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\util\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/features/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\features\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/features/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\features\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sfm\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/sfm/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\sfm\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/mvs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\mvs\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/mvs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\mvs\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task1\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task1\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task2\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task2/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task2\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task3\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task3\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task4/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task4\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task4/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task4\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task5/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task5\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task5/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task5\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task6/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task6\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task6/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task6\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task7/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task7\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/examples/task7/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\task7\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/surface/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\surface\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/surface/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\surface\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\texturing\" />
+      </Unit>
+      <Unit filename="/home/tangming/ImageBasedModellingEduV1.0/texturing/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\texturing\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
